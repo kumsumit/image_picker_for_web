@@ -11,7 +11,7 @@ dependencies:
   image_picker_for_web:
     path: ../
   image_picker_platform_interface:
-    path: ../
+    git: https://github.com/kumsumit/image_picker_platform_interface.git
   web: ^0.5.1
 
 dev_dependencies:
