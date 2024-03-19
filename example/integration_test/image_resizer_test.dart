@@ -25,7 +25,7 @@ void main() {
   setUp(() {
     imageResizer = ImageResizer();
     final Blob pngHtmlFile = _base64ToBlob(pngFileBase64Contents);
-    pngFile = XFile(URL.createObjectURL(pngHtmlFile as JSAny?),
+    pngFile = XFile(URL.createObjectURL(pngHtmlFile),
         name: 'pngImage.png', mimeType: 'image/png');
   });
 
